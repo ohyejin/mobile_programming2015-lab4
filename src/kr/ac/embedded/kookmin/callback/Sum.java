@@ -1,5 +1,6 @@
 package kr.ac.embedded.kookmin.callback;
 
+//sum
 public class Sum  {
 
 	private int number = 0;

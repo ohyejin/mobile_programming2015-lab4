@@ -23,8 +23,13 @@ public class CallbackTest implements OnMaxNumberCb {
 	@Override
 	public void onMaxNumber(int number, int exceed) {
 		// TODO Auto-generated method stub
-		// 구현하시오 //
+		// implement here //
+		
+		System.out.print("Current sum is ");
+		System.out.print(number);
+		System.out.print(" and exceeds ");
+		System.out.println(exceed);
+		
 	}
 	
-
 }
